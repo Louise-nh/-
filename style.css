@@ -1,0 +1,35 @@
+body {
+    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    url('IMG_5084.JPG');
+    background-size: cover;
+    background-position: center 30%;
+    text-align: center;
+
+}
+
+h1 {
+    color: rgb(9, 8, 8);
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+h2 {
+    color: rgb(14, 41, 84);
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(254, 252, 252);
+    margin-bottom: 400px;
+}
+
+p {
+    width: fit-content;        /* 讓寬度隨著文字長短自動縮放 */
+    margin: 0 auto;            /* 讓縮小後的框框保持水平置中 */
+    color: rgb(9, 8, 8);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(254, 252, 252);
+    border: 5px solid rgb(244, 244, 244);
+    border-radius: 10px;
+    border-color: rgb(5, 0, 0);
+}
