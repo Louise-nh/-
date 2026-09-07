@@ -35,10 +35,13 @@ updateCountdown();
 // 每 1000 毫秒（1 秒）自動更新一次
 setInterval(updateCountdown, 1000);
 
-document.getElementById("backButton").addEventListener("click", () => {
-  if (window.history.length > 1) {
-    window.history.back();
-  } else {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-});
+const backButton = document.getElementById("backButton");
+if (backButton) {
+  backButton.addEventListener("click", () => {
+    if (window.history.length > 1) {
+      window.history.back();
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  });
+}

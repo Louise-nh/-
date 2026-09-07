@@ -64,6 +64,24 @@ p {
     border-radius: 10px;
     border-color: rgb(5, 0, 0);
 }
+
+.countdown-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.countdown-area p {
+    margin: 0;
+}
+
+.small-icon {
+    width: 140px;
+    height: auto;
+    object-fit: contain;
+}
+
 nav button {
     padding: 8px 14px;
     color: white;
@@ -126,5 +144,24 @@ main article {
 
     h1 {
         font-size: 56px;
+    }
+
+    h2 {
+        margin-bottom: 40px;
+        font-size: 24px;
+    }
+
+    .countdown-area {
+        flex-direction: row;
+        gap: 8px;
+        padding: 0 10px;
+    }
+
+    .countdown-area p {
+        font-size: 22px;
+    }
+
+    .small-icon {
+        width: 80px;
     }
 }
